@@ -55,7 +55,7 @@ function Navbar() {
         </div>
      </nav>
 
-     <nav id="smNav" className="w-[100%] h-0 overflow-hidden fixed bg-[rgb(0,0,0,0.8)]  top-14 text-white transition-all duration-1000 ease-in-out">
+     <nav id="smNav" className="w-[100%] z-50 h-0 overflow-hidden fixed bg-[rgb(0,0,0,0.8)]  top-14 text-white transition-all duration-1000 ease-in-out">
             <ul className="flex flex-col space-y-3 items-center p-14 text-lg">
               <li className='cursor-pointer hover:text-orange-500 hover:-translate-y-3 p-4 transition-all ease-in-out duration-300' onClick={toggleMenu}>Men</li>
               <li className='cursor-pointer hover:text-orange-500 hover:-translate-y-3 p-4 transition-all ease-in-out duration-300' onClick={toggleMenu}>Women</li>
